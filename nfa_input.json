@@ -1,0 +1,7 @@
+{
+  "nfa_states": 3,
+  "nfa_symbols": ["a", "b"],
+  "sigma_function": [[0, "a", [0]], [0, "b", [1]], [1, "a", [1, 2]], [1, "b", [1]], [2, "a", [2]], [2, "b", [1, 2]]],
+  "start_state": 0,
+  "final_state":  [2]
+}
